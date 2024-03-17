@@ -1,0 +1,1123 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.nav_font .nav-item .nav-link {
+    /* border-inline-start-style: none; */
+    margin: 0 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.nav_font .nav-item .nav-link.active,
+.nav_font .nav-item .nav-link:hover {
+    color: #F5B18A;
+    border-bottom: 2px solid;
+}
+
+.mogo_logo {
+    font-size: 30px;
+}
+
+.header {
+    background-image: url(../img/header1.jpg);
+    object-fit: cover;
+}
+
+.welcome_titel p {
+    font-size: 130px;
+    line-height: 1;
+    margin: 20px 0px 0;
+}
+
+.welcome_titel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome_titel p::after {
+    content: "";
+    border-bottom: 3px solid;
+    display: block;
+    margin: 50px auto;
+    width: 10%;
+}
+
+.welcome_header {
+    padding: 10rem 0;
+}
+
+.learn_more button:hover {
+    background-color: white;
+    color: black !important;
+    transition: 0.5s;
+}
+
+.learn_more button {
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 12px 35px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.nav_manu_buttom::before {
+    content: "";
+    border-top: 3px solid #ff7171;
+    display: block;
+    width: 30%;
+    margin-top: -2px;
+}
+
+.nav_manu_buttom {
+    border-top: 3px solid white;
+}
+
+.nav_manu_buttom .nav-item .nav-link {
+    padding: 15px 0;
+}
+
+.nav_manu_hover {
+    opacity: 0.6;
+}
+
+.nav_manu_hover::before {
+    opacity: 0;
+}
+
+.nav_manu_hover:hover {
+    opacity: 1;
+}
+
+.nav_manu_hover:hover::before {
+    opacity: 1;
+    width: 30%;
+    transition: 0.9s;
+}
+
+.story_what_titel h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.story_what_titel p {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.story_what_titel p:after {
+    content: "";
+    border-bottom: 4px solid red;
+    display: block;
+    width: 5%;
+    margin: 25px auto 50px;
+}
+
+.story_what {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.story_lorem_text p {
+    font-size: 13px;
+    color: #777;
+}
+
+.super_team_titel {
+    top: 0;
+    padding: 85px 0;
+    width: 100%;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    z-index: 99;
+    /* bottom: auto; */
+}
+
+.super_team {
+    box-shadow: 10px 10px 0px #99D6C7;
+    cursor: pointer;
+}
+
+.super_team::after {
+    content: "";
+    background: linear-gradient(180deg, #e3847dd9, #f6da95bf);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.story_about_us {
+    margin-top: 85px;
+}
+
+.story {
+    margin: 90px 0;
+}
+
+.super_team_titel_hover {
+    opacity: 0;
+}
+
+.super_team_hover::after {
+    opacity: 0;
+}
+
+.super_team_hover {
+    box-shadow: none;
+}
+
+.super_team_titel_hover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.super_team_hover:hover {
+    box-shadow: 10px 10px 0px #99D6C7;
+    transition: 0.5s;
+}
+
+.super_team_hover:hover::after {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.counter_number span {
+    font-size: 13px;
+}
+
+.counter {
+    background-color: #95E1D3;
+}
+
+.counter_number p {
+    font-size: 60px;
+}
+
+.counter_number {
+    padding: 50px 0;
+}
+
+.counter_number {
+    padding: 50px 29px;
+    border: 1px solid #ffffff54;
+}
+
+.serive_titel span {
+    font-size: 14px;
+}
+
+.serive_titel p {
+    font-size: 15px;
+}
+
+.serive_titel {
+    padding-left: 25px;
+}
+
+.border_service::after {
+    content: "";
+    border-bottom: 2px solid #7777771f;
+    padding: 0;
+    display: block;
+    margin: 60px 0;
+}
+
+.ameging_service {
+    padding: 90px 0;
+}
+
+.design {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.unique_design {
+    background-image: url(../img/nature.jpg);
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.iphone_img {
+    top: 45%;
+    right: -120px;
+    bottom: auto;
+}
+
+.what_we_do {
+    padding: 90px 0;
+}
+
+.panel-title a i {
+    color: #bbb;
+    font-size: 20px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.panel-title a.collapsed .fas.fa-chevron-down {
+    display: none;
+}
+
+.panel-title a.collapsed .fas.fa-chevron-up {
+    display: block;
+}
+
+.panel-title a .fas.fa-chevron-up {
+    display: none;
+}
+
+.panel-title {
+    border-bottom: none !important;
+    border: 2px solid #EEEEEE;
+    padding: 12px 10px;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+}
+
+.panel-group .panel-body {
+    padding: 5px 9px 18px;
+    color: #66666B;
+    border-top: 0 !important;
+    overflow-y: scroll;
+    font-size: 16px;
+    height: 120px;
+    display: inline-block;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.panel-group .panel {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #EEEEEE;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-group .panel {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.panel-heading h3 a:hover {
+    color: #73BFD4;
+    text-decoration: none;
+}
+
+.panel-title p span {
+    font-size: 17px;
+    padding-left: 15px;
+    color: black;
+}
+
+.border_panel {
+    border: 2px solid #EEEEEE;
+    padding: 20px 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #95E1D3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #95E1D3;
+}
+
+.message_jon_text h3::before {
+    content: "";
+    display: inline-block;
+    background-color: #F38181;
+    height: 3px;
+    /* position: absolute; */
+    width: 10%;
+    margin: 0 10px 8px 0px;
+}
+
+.message_jon_text h3 {
+    font-size: 25px;
+    color: black;
+}
+
+.message_next,
+.message_prev {
+    top: 0;
+    bottom: 0;
+    color: #CECECE;
+    font-size: 30px;
+    width: 2%;
+    /* display: inline-block; */
+}
+
+.message_img {
+    margin: 0 60px 0 0;
+}
+
+.message_jon_doe {
+    margin: 0px 80px;
+}
+
+.message_jon_text p {
+    font-size: 19px;
+    color: #BEBEBE;
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+    color: #CECECE;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    color: #95E1D3;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.message {
+    margin: 0px 0 90px;
+}
+
+.matthew_dix {
+    padding-top: 25px;
+}
+
+.matthew_dix span {
+    font-size: 15px;
+    color: #B3B3B5;
+}
+
+.matthew_dix p {
+    font-size: 17px;
+}
+
+.team_titel_meet::after {
+    content: "";
+    background: linear-gradient(180deg, #e3847dd9, #f6da95bf);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.team_titel_meet {
+    cursor: pointer;
+}
+
+.team_titel {
+    top: 50%;
+    /* padding: 85px 0; */
+    width: 100%;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    font-size: 18px;
+    z-index: 99;
+    /* bottom: auto; */
+}
+
+.team_titel a i:hover {
+    background-color: #ff7171;
+    color: white;
+    border-right: 1px solid #ff7171;
+}
+
+.team_titel a i {
+    background-color: #FFE195;
+    padding: 15px 17px;
+    /* display: inline-block; */
+    color: #F6897F;
+    /* margin: 0 0px; */
+    font-size: 20px;
+    border-right: 1px solid;
+}
+
+.team_titel_meet:hover {
+    box-shadow: 10px 10px 0px #99D6C7;
+    transition: 0.5s;
+}
+
+.team_titel_meet:hover .team_titel {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.team_titel_meet:hover:after {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.meet_our_team {
+    margin-bottom: 90px;
+}
+
+.clogo {
+    padding-bottom: 90px;
+}
+
+.work {
+    margin-bottom: 90px;
+    display: inline-block;
+}
+
+.creative_titel::before {
+    content: "";
+    background: linear-gradient(180deg, #e3847dd9, #f6da95bf);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Creative {
+    width: 50%;
+    margin-top: 65px;
+}
+
+.creative_design {
+    width: 50%;
+}
+
+.creative_titel {
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    height: 100%;
+    padding: 85px 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.creative_titel:hover {
+    opacity: 1;
+    transition: 0.5;
+}
+
+.creative_titel:hover:before {
+    opacity: 1;
+    transition: 0.5;
+}
+
+.creative_titel p {
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.creative_titel span {
+    font-size: 17px;
+}
+
+.what_people_say {
+    background-image: url(../img/nature1.jpg);
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding: 90px 0;
+}
+
+.meet_img {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.name_details::after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid #F38181;
+    margin: 15px 0px;
+    width: 20%;
+}
+
+.name_details p {
+    font-size: 17px;
+}
+
+.mike p {
+    color: #B5B5B5;
+    font-size: 15px;
+}
+
+.name_details span {
+    color: #777;
+    font-size: 15px;
+}
+
+.peopel_meet {
+    margin-bottom: 80px;
+}
+
+.clients {
+    margin-top: 80px;
+}
+
+.blog {
+    padding: 90px 0;
+}
+
+.jan {
+    background-color: #95E1D3;
+    padding: 10px 20px;
+    bottom: 10px;
+    left: -15px;
+}
+
+.jan p {
+    font-size: 25px;
+}
+
+.dummy_text p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.dummy_text span {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #77777785;
+}
+
+.dummy_text::after {
+    content: "";
+    border-bottom: 1px solid #E5E5E5;
+    display: block;
+    margin: 10px 0px 0px;
+}
+
+.dummy_text {
+    padding: 15px 0;
+}
+
+.reviwe p i {
+    color: #95E1D3;
+    font-size: 15px;
+}
+
+.reviwe p span {
+    padding: 0 10px;
+    color: #C5C5C5;
+    font-size: 15px;
+}
+
+.map {
+    font-size: 25px;
+}
+
+.open_map {
+    background-image: url(../img/nature1.jpg);
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.map a::after {
+    content: '';
+    display: block;
+    border-bottom: 4px solid;
+    width: 50%;
+    margin: 15px auto 0;
+}
+
+.map a:hover {
+    text-decoration: none
+}
+
+.map a {
+    color: #F38181;
+}
+
+.footer_logo p {
+    font-size: 50px;
+    color: #77777785;
+}
+
+.footer_logo {
+    margin-bottom: 25px;
+}
+
+.footer_text p {
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.footer_text span {
+    font-size: 16px;
+}
+
+.footer_text::after {
+    margin: 15px 0 20px;
+    border-bottom: 1px solid #E5E5E5;
+    content: "";
+    display: block;
+}
+
+.follow p {
+    font-size: 15px;
+    color: #AAAAAA;
+}
+
+.follow a i:hover {
+    color: #F38181;
+    transition: 0.5s;
+}
+
+.follow a i {
+    font-size: 18px;
+    padding: 0 5px 0 15px;
+    color: #95E1D3;
+}
+
+.email_change {
+    padding: 10px 15px;
+    height: auto;
+    border-radius: 1px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+}
+
+.email button:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.email button {
+    background-color: #95E1D3;
+    font-size: 15px;
+    padding: 0 30px;
+    border: 2px solid #95E1D3;
+}
+
+.footer_blog {
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.footer_blog p {
+    color: black;
+    font-size: 16px;
+}
+
+.img_text span {
+    font-size: 13px;
+    color: #A1A1A1;
+}
+
+.img_text p {
+    font-size: 14px;
+}
+
+.img_text {
+    padding-left: 20px;
+}
+
+.footer {
+    padding: 70px 0 0;
+}
+
+.img_instagam img {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.view_more {
+    padding-top: 10px;
+    line-height: 1;
+    float: left;
+    font-size: 15px;
+    color: #585858;
+}
+
+.border_footer::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 50px 0 0;
+}
+
+.free_template p {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.free_template p a {
+    color: #F48781;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1199px) {
+    .welcome_titel p {
+        font-size: 115px;
+    }
+    .nav_manu_buttom::before {
+        border-top: 5px solid #ff7171;
+        margin-top: -4px;
+    }
+    .nav_manu_buttom {
+        border-top: 4px solid white;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    .counter_number span {
+        font-size: 10px;
+    }
+
+    .counter_number p {
+        font-size: 50px;
+    }
+
+    .serive_titel span {
+        font-size: 11px;
+    }
+
+    .iphone_img {
+        top: 35%;
+        right: -143px;
+        bottom: auto;
+    }
+
+    .panel-group .panel-body {
+        padding: 5px 9px 8px;
+        font-size: 14px;
+        height: 60px;   
+    }
+    .message_jon_text p {
+        font-size: 15px;
+    }
+    .mike p {
+        font-size: 13px;
+    }
+    .jan {
+        padding: 10px 15px;
+     }
+     .jan p {
+        font-size: 20px;
+    }
+    .img_text p {
+        font-size: 13px;
+    }
+    .follow a i {
+        font-size: 16px;
+        padding: 0 5px 0 8px;
+        color: #95E1D3;
+    }
+    .email button {
+        font-size: 13px;
+        padding: 0 20px;
+    }
+    .footer_logo p {
+        font-size: 40px;
+        line-height: 1;
+    }
+    .footer_blog p {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .nav_font .nav-item .nav-link {
+        font-size: 11px;
+    }
+    .welcome_titel p {
+        font-size: 90px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .story_what {
+        width: 100%;
+    }    
+    .super_team_titel {
+        padding: 40px 0;
+    }
+    .serive_titel {
+        padding-left: 15px;
+    }
+    .serive_titel p {
+        font-size: 13px;
+    }
+    .iphone_img {
+        top: 50%;
+        right: -90px;
+        width: 50%;
+    }
+    .message_jon_doe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .message_jon_text h3 {
+           font-size: 20px;
+        text-align: center;
+    }
+    .message_jon_text {
+        padding-top: 10px;
+    }
+    .message_img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .message_img {
+        width: 15%;
+        margin: 0 auto;
+    }
+    .meet_img {
+        width: 70%;
+        padding-right: 15px;
+    }
+    .mike p {
+        font-size: 12px;
+    }
+    .name_details p {
+        font-size: 15px;
+    }
+    .name_details span {
+           font-size: 13px;
+    }
+    .dummy_text p {
+        font-size: 13px;
+    }
+    .dummy_text span {
+        font-size: 12px;
+    }
+    .map {
+        font-size: 23px;
+    }
+    .footer_blog {
+        padding-top: 25px;
+    }
+    .img_instagam img {
+        width: 10%;
+    }
+    .img_instagam img {
+      float: unset;
+     }
+}
+
+@media only screen and (max-width:767px) {
+    .welcome_titel p {
+        font-size: 70px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    .nav_font .nav-item .nav-link {
+        margin: 10px 20px;
+    }
+    .story_lorem_text p {
+        font-size: 12px;
+    }
+    .super_team_titel {
+        padding: 140px 0;
+    }
+    .super_team {
+        margin-bottom: 40px;
+    }
+    .counter_titel {
+        flex-direction: column;
+    }
+    .counter_number span {
+        font-size: 13px;
+    }
+    .serive_titel p {
+        font-size: 13px;
+        margin: 0;
+    }
+    .service {
+        margin-bottom: 25px;
+    }
+    .story_what_titel p {
+        font-size: 25px;
+    }
+    .message_jon_text p {
+        font-size: 13px;
+    }
+    .message_jon_doe {
+        margin: 0px 45px;
+    }
+    .dummy_text span {
+        font-size: 14px;
+    }
+    .img_instagam img {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .welcome_titel p {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .nav_manu_buttom::before {
+        border-top: 4px solid #ff7171;
+        width: 30%;
+        margin-top: -4px;
+    }
+    .nav_manu_buttom {
+        border-top: 4px solid white;
+    }
+    .iphone_img {
+        top: 36%;
+        right: -70px;
+        width: 64%;
+    }
+    .story_lorem_text p {
+        font-size: 11px;
+    }
+    .border_panel {
+        padding: 10px 10px;
+    }
+    .panel-group .panel-body {
+        height: 85px;
+    }
+    .message_jon_text p {
+        font-size: 12px;
+    }
+    .message_next, .message_prev {
+           font-size: 25px;
+    }
+    .creative_design {
+        width: 100%;
+    }
+    .creative_titel {
+        padding: 50px 0;
+    }
+    .creative_titel p {
+        font-size: 15px;
+    }
+    .creative_titel span {
+        font-size: 14px;
+    }
+    .message_img {
+        width: 25%;
+    }
+    .message_jon_text h3 {
+        font-size: 18px;
+    }
+    .meet_img {
+        width: 50%;
+    }
+    .jan {
+        left: -10px;
+    }
+    .open_map {
+        padding: 30px 0;
+    }
+    .map {
+        font-size: 20px;
+    }
+    .free_template p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .welcome_titel p {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .learn_more button {
+        padding: 11px 30px;
+        font-size: 14px;
+    }
+    .nav_manu_buttom .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .story_lorem_text p {
+        font-size: 10px;
+    }
+    .story_what_titel p {
+        font-size: 20px;
+    }
+    .story_what_titel h3 {
+        font-size: 20px;
+    }
+    .super_team_titel {
+        padding: 65px 0;
+    }
+    .panel-group .panel-body {
+        font-size: 12px;
+    }
+    .message_jon_doe {
+        margin: 0px 20px;
+    }
+    .message_next, .message_prev {
+        font-size: 19px;
+    }
+    .message_jon_text h3 {
+        font-size: 15px;
+    }
+    .meet_img {
+        width: 80%;
+    }
+    .dummy_text span {
+        font-size: 12px;
+    }
+    .map {
+        font-size: 15px;
+    }
+    .navbar_icon_header i {
+        color: white;
+    }
+    .footer_text p {
+        font-size: 12px;
+    }
+}
